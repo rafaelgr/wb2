@@ -1,0 +1,3 @@
+wxPIM.moduleClass.Appointments = class {
+    
+}
