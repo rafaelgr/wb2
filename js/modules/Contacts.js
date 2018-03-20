@@ -1,4 +1,4 @@
-wxPIM.moduleClass.Contacts = class {
+class Contacts {
 
     constructor() {
         this.usStates = [

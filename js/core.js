@@ -23,10 +23,10 @@ class WXPIM {
     }
 
     start() {
-        this.modules.Appointments = new this.moduleClasses.Appointments();
-        this.modules.Contacts = new this.moduleClasses.Contacts();
-        this.modules.Notes = new this.moduleClasses.Notes();
-        this.modules.Tasks = new this.moduleClasses.Tasks();
+        this.modules.Appointments = new Appointments();
+        this.modules.Contacts = new Contacts();
+        this.modules.Notes = new Notes();
+        this.modules.Tasks = new Tasks();
         webix.ui(this.getBaseLayoutConfig());
         webix.ui(this.getSideMenuConfig());
         wxPIM.dayAtAGlance();

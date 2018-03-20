@@ -1,4 +1,4 @@
-wxPIM.moduleClass.Notes = class {
+class Notes {
     activate() {
     }
 

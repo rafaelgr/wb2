@@ -1,4 +1,4 @@
-wxPIM.moduleClass.Tasks = class {
+class Tasks {
     activate() {
     }
     deactivate() {
