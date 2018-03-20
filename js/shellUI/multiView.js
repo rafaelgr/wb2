@@ -1,7 +1,7 @@
 wxPIM.getMultiviewConfig = function () {
     return {
         view: "multiview", id: "moduleArea",
-        animate: { type: "flip", subtype: "horizontal" },
+        animate: false,
         cells: [
             wxPIM.getDayAtAGlanceConfig(),
             wxPIM.modules.Appointments.getUIConfig(),
